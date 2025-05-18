@@ -1,0 +1,27 @@
+[
+    {
+        "userId": "6650f1a1e1b1c1a1a1a1a1a1",
+        "items": [
+            {
+                "productId": "p1",
+                "quantity": 2,
+                "price": 100
+            },
+            {
+                "productId": "p2",
+                "quantity": 1,
+                "price": 200
+            }
+        ]
+    },
+    {
+        "userId": "6650f1a1e1b1c1a1a1a1a1a3",
+        "items": [
+            {
+                "productId": "p3",
+                "quantity": 1,
+                "price": 150
+            }
+        ]
+    }
+]
