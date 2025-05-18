@@ -9,7 +9,7 @@ const paymentMethodSchema = new mongoose.Schema({
   }, // e.g. CREDIT_CARD, BANK_TRANSFER, MOMO, ZALOPAY
   cardNumber: { type: String },
   expiryDate: { type: String },
-  cardHolderName: { type: String },
+  cardHolderName: { type: String },   
   isDefault: { type: Boolean, default: false }
 });
 

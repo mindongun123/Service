@@ -22,6 +22,19 @@ app.get('/', (req, res) => {
   res.send('UserService API is running');
 });
 
+//  Kiểm tra trạng thái cơ sở dữ liệu
+// Đoạn này sẽ được gọi từ các service khác để kiểm tra trạng thái của cơ sở dữ liệu
+app.get('/db-status', async (req, res) => {
+  try {
+    // Kiểm tra kết nối và đếm số user
+    const User = require('./models/User');
+    const count = await User.countDocuments();
+    res.json({ status: 'ok', userCount: count });
+  } catch (err) {
+    res.status(500).json({ status: 'error', error: err.message });
+  }
+});
+
 const PORT = process.env.PORT || 5002;
 const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/userservice';
 
