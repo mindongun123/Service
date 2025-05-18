@@ -12,11 +12,13 @@ const authRoutes = require('./routes/auth');
 const userRoutes = require('./routes/users');
 const addressRoutes = require('./routes/addresses');
 const paymentRoutes = require('./routes/paymentMethods');
+const testAPI = require('./routes/testAPI');
 
 app.use('/api/auth', authRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/users/addresses', addressRoutes);
 app.use('/api/users/payment-methods', paymentRoutes);
+app.use('/api/test', testAPI);
 
 app.get('/', (req, res) => {
   res.send('UserService API is running');
@@ -34,6 +36,7 @@ app.get('/db-status', async (req, res) => {
     res.status(500).json({ status: 'error', error: err.message });
   }
 });
+
 
 const PORT = process.env.PORT || 5002;
 const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/userservice';
