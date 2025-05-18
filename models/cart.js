@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 const CartItemSchema = new mongoose.Schema({
-  productId: { type: mongoose.Schema.Types.ObjectId, required: true },
+  productId: { type: String, required: true }, // Đổi từ ObjectId sang String để phù hợp microservice
   quantity: { type: Number, required: true },
   price: { type: Number, required: true }
 });

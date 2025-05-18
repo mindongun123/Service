@@ -7,20 +7,28 @@ const { publishOrderEvent } = require('../services/kafka');
 
 // Lấy danh sách đơn hàng của user
 router.get('/', async (req, res) => {
-  const userId = req.header('x-user-id');
+  const userId = req.header('x-user-id') || req.headers['x-user-id'];
+  console.log('x-user-id header:', userId);
   if (!userId) return res.status(401).json({ message: 'Unauthorized' });
+  console.log('Lấy danh sách đơn hàng - userId:', userId);
+  // userId = "6650f1a1e1b1c1a1a1a1a1a3".toString();
   const orders = await Order.find({ userId }).sort({ createdAt: -1 });
   res.json(orders);
 });
 
 // Lấy chi tiết đơn hàng
 router.get('/:id', async (req, res) => {
-  const userId = req.header('x-user-id');
+  const userId = req.header('x-user-id') || req.headers['x-user-id'];
   const { id } = req.params;
+  console.log('Chi tiết đơn hàng - userId:', userId, 'orderId:', id);
   if (!userId) return res.status(401).json({ message: 'Unauthorized' });
-  const order = await Order.findOne({ _id: id, userId });
-  if (!order) return res.status(404).json({ message: 'Order not found' });
-  res.json(order);
+  try {
+    const order = await Order.findOne({ _id: id, userId });
+    if (!order) return res.status(404).json({ message: 'Order not found' });
+    res.json(order);
+  } catch (err) {
+    res.status(500).json({ message: 'Error fetching order', error: err.message });
+  }
 });
 
 // Tạo đơn hàng mới từ giỏ hàng
