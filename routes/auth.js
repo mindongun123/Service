@@ -26,7 +26,7 @@ router.post('/register', async (req, res) => {
     }
 });
 
-// Đăng nhập
+// Đăng nhập (password: 123456)
 router.post('/login', async (req, res) => {
     try {
         const { username, password } = req.body;
@@ -51,3 +51,12 @@ router.post('/login', async (req, res) => {
 });
 
 module.exports = router;
+
+
+
+//lam viec voi tocken
+// node -e "require('bcryptjs').compare('123456', '$2a$10$ixlPY3AAd4ty1l6E2IsQ9OFZi2ba9ZQE0bP7RFcGIWNhyFrrT3YUi').then(console.log)"
+// false
+
+// tao hash password: node -e "require('bcryptjs').hash('123456', 10).then(console.log)"
+// $2b$10$oCnX3Bqs.mqF36RqRt0YOOkMKbR0uzdKqxz6Ghs8Z92Vb9WMjtRE2

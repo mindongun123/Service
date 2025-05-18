@@ -3,8 +3,8 @@
 This service provides APIs for user management, authentication, user profiles, addresses, and payment methods, similar to the original Java Spring Boot service. It uses Express, Sequelize, and PostgreSQL.
 
 ## Endpoints
-- `POST /api/auth/register` — Đăng ký người dùng
-- `POST /api/auth/login` — Đăng nhập
+- `POST /api/auth/register` — Đăng ký người dùng 
+- `POST /api/auth/login` — Đăng nhập 
 - `GET /api/users` — Danh sách người dùng (admin)
 - `GET /api/users/profile` — Thông tin cá nhân
 - `PUT /api/users/profile` — Cập nhật thông tin cá nhân
