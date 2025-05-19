@@ -1,0 +1,10 @@
+[
+  { "name": "Điện tử", "description": "Các thiết bị điện tử và công nghệ" },
+  { "name": "Thời trang", "description": "Quần áo và phụ kiện thời trang" },
+  { "name": "Nhà cửa & Đời sống", "description": "Đồ dùng gia đình và nội thất" },
+  { "name": "Sức khỏe & Làm đẹp", "description": "Sản phẩm chăm sóc sức khỏe và làm đẹp" },
+  { "name": "Thể thao & Du lịch", "description": "Dụng cụ thể thao và đồ dùng du lịch" },
+  { "name": "Sách & Văn phòng phẩm", "description": "Sách và các sản phẩm văn phòng" },
+  { "name": "Đồ chơi & Mẹ và bé", "description": "Đồ chơi và sản phẩm dành cho trẻ em" },
+  { "name": "Thực phẩm & Đồ uống", "description": "Thực phẩm và đồ uống các loại" }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "name": "Điện thoại & Máy tính bảng",
+    "description": "Điện thoại di động, máy tính bảng và phụ kiện",
+    "parentCategory": "Điện tử"
+  },
+  {
+    "name": "Laptop & Máy tính",
+    "description": "Máy tính xách tay, máy tính để bàn và linh kiện",
+    "parentCategory": "Điện tử"
+  },
+  {
+    "name": "Thiết bị âm thanh",
+    "description": "Tai nghe, loa và thiết bị âm thanh",
+    "parentCategory": "Điện tử"
+  },
+  {
+    "name": "Máy ảnh & Quay phim",
+    "description": "Máy ảnh, máy quay phim và phụ kiện",
+    "parentCategory": "Điện tử"
+  },
+  {
+    "name": "Thời trang nam",
+    "description": "Quần áo và phụ kiện cho nam",
+    "parentCategory": "Thời trang"
+  },
+  {
+    "name": "Thời trang nữ",
+    "description": "Quần áo và phụ kiện cho nữ",
+    "parentCategory": "Thời trang"
+  },
+  {
+    "name": "Đồng hồ & Trang sức",
+    "description": "Đồng hồ và trang sức thời trang",
+    "parentCategory": "Thời trang"
+  },
+  {
+    "name": "Giày dép",
+    "description": "Giày dép cho nam và nữ",
+    "parentCategory": "Thời trang"
+  },
+  {
+    "name": "Đồ nội thất",
+    "description": "Bàn ghế, tủ và các đồ nội thất khác",
+    "parentCategory": "Nhà cửa & Đời sống"
+  },
+  {
+    "name": "Đồ dùng nhà bếp",
+    "description": "Dụng cụ nấu ăn và đồ dùng nhà bếp",
+    "parentCategory": "Nhà cửa & Đời sống"
+  },
+  {
+    "name": "Đồ dùng phòng ngủ",
+    "description": "Chăn ga gối đệm và đồ dùng phòng ngủ",
+    "parentCategory": "Nhà cửa & Đời sống"
+  },
+  {
+    "name": "Mỹ phẩm",
+    "description": "Sản phẩm trang điểm và chăm sóc da",
+    "parentCategory": "Sức khỏe & Làm đẹp"
+  },
+  {
+    "name": "Chăm sóc cá nhân",
+    "description": "Sản phẩm chăm sóc cá nhân",
+    "parentCategory": "Sức khỏe & Làm đẹp"
+  },
+  {
+    "name": "Thực phẩm chức năng",
+    "description": "Vitamin và thực phẩm bổ sung",
+    "parentCategory": "Sức khỏe & Làm đẹp"
+  },
+  {
+    "name": "Dụng cụ thể thao",
+    "description": "Dụng cụ tập luyện và thi đấu",
+    "parentCategory": "Thể thao & Du lịch"
+  },
+  {
+    "name": "Trang phục thể thao",
+    "description": "Quần áo và giày dép thể thao",
+    "parentCategory": "Thể thao & Du lịch"
+  },
+  {
+    "name": "Đồ dùng du lịch",
+    "description": "Vali, balo và phụ kiện du lịch",
+    "parentCategory": "Thể thao & Du lịch"
+  },
+  {
+    "name": "Sách tiếng Việt",
+    "description": "Sách tiếng Việt các thể loại",
+    "parentCategory": "Sách & Văn phòng phẩm"
+  },
+  {
+    "name": "Sách ngoại văn",
+    "description": "Sách tiếng Anh và các ngôn ngữ khác",
+    "parentCategory": "Sách & Văn phòng phẩm"
+  },
+  {
+    "name": "Văn phòng phẩm",
+    "description": "Bút, vở và dụng cụ văn phòng",
+    "parentCategory": "Sách & Văn phòng phẩm"
+  },
+  {
+    "name": "Đồ chơi",
+    "description": "Đồ chơi cho trẻ em các lứa tuổi",
+    "parentCategory": "Đồ chơi & Mẹ và bé"
+  },
+  {
+    "name": "Sản phẩm cho mẹ",
+    "description": "Sản phẩm dành cho mẹ bầu và sau sinh",
+    "parentCategory": "Đồ chơi & Mẹ và bé"
+  },
+  {
+    "name": "Sản phẩm cho bé",
+    "description": "Sản phẩm chăm sóc và nuôi dưỡng trẻ",
+    "parentCategory": "Đồ chơi & Mẹ và bé"
+  },
+  {
+    "name": "Thực phẩm tươi sống",
+    "description": "Rau củ, trái cây, thịt và hải sản tươi",
+    "parentCategory": "Thực phẩm & Đồ uống"
+  },
+  {
+    "name": "Thực phẩm khô",
+    "description": "Gạo, mì, ngũ cốc và các loại thực phẩm khô",
+    "parentCategory": "Thực phẩm & Đồ uống"
+  },
+  {
+    "name": "Đồ uống",
+    "description": "Nước giải khát, cà phê, trà và các loại đồ uống",
+    "parentCategory": "Thực phẩm & Đồ uống"
+  }
+]

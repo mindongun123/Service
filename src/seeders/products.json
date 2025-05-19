@@ -1,0 +1,98 @@
+[
+  {
+    "name": "iPhone 14 Pro Max",
+    "description": "Điện thoại iPhone 14 Pro Max 256GB, màn hình Super Retina XDR 6.7 inch, chip A16 Bionic",
+    "price": 28990000,
+    "images": ["https://images.unsplash.com/photo-1591337676887-a217a6970a8a?q=80&w=1480&auto=format&fit=crop"],
+    "categoryName": "Điện thoại & Máy tính bảng",
+    "stock": 50
+  },
+  {
+    "name": "Samsung Galaxy S23 Ultra",
+    "description": "Điện thoại Samsung Galaxy S23 Ultra 256GB, màn hình Dynamic AMOLED 2X 6.8 inch, chip Snapdragon 8 Gen 2",
+    "price": 23990000,
+    "images": ["https://images.unsplash.com/photo-1598327105666-5b89351aff97?q=80&w=1527&auto=format&fit=crop"],
+    "categoryName": "Điện thoại & Máy tính bảng",
+    "stock": 45
+  },
+  {
+    "name": "MacBook Air M2",
+    "description": "Laptop MacBook Air M2 2023, màn hình Liquid Retina 13.6 inch, 8GB RAM, 256GB SSD",
+    "price": 26990000,
+    "images": ["https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1452&auto=format&fit=crop"],
+    "categoryName": "Laptop & Máy tính",
+    "stock": 25
+  },
+  {
+    "name": "Apple AirPods Pro 2",
+    "description": "Tai nghe không dây Apple AirPods Pro 2 với công nghệ chống ồn chủ động, âm thanh không gian",
+    "price": 5990000,
+    "images": ["https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?q=80&w=1470&auto=format&fit=crop"],
+    "categoryName": "Thiết bị âm thanh",
+    "stock": 40
+  },
+  {
+    "name": "Áo sơ mi nam dài tay",
+    "description": "Áo sơ mi nam dài tay chất liệu cotton cao cấp, kiểu dáng thanh lịch",
+    "price": 399000,
+    "images": ["https://images.unsplash.com/photo-1620012253295-c15cc3e65df4?q=80&w=1525&auto=format&fit=crop"],
+    "categoryName": "Thời trang nam",
+    "stock": 100
+  },
+  {
+    "name": "Nhà Giả Kim",
+    "description": "Tiểu thuyết nổi tiếng của Paulo Coelho, bản dịch tiếng Việt",
+    "price": 79000,
+    "images": ["https://images.unsplash.com/photo-1544947950-fa07a98d237f?q=80&w=1374&auto=format&fit=crop"],
+    "categoryName": "Sách tiếng Việt",
+    "stock": 150
+  },
+  {
+    "name": "LEGO Classic Creative Bricks",
+    "description": "Bộ đồ chơi LEGO Classic với 300 mảnh ghép nhiều màu sắc, phát triển sáng tạo",
+    "price": 599000,
+    "images": ["https://images.unsplash.com/photo-1587654780291-39c9404d746b?q=80&w=1470&auto=format&fit=crop"],
+    "categoryName": "Đồ chơi",
+    "stock": 40
+  },
+  {
+    "name": "Bỉm tã quần Huggies",
+    "description": "Bỉm tã quần Huggies size L (9-14kg), 68 miếng, siêu thấm, chống tràn",
+    "price": 335000,
+    "images": ["https://images.unsplash.com/photo-1596815064285-45ed8a9c0463?q=80&w=1374&auto=format&fit=crop"],
+    "categoryName": "Sản phẩm cho bé",
+    "stock": 100
+  },
+  {
+    "name": "Nồi cơm điện Philips",
+    "description": "Nồi cơm điện Philips 1.8L, công nghệ nấu 3D, giữ ấm 24h",
+    "price": 1290000,
+    "images": ["https://images.unsplash.com/photo-1585837575652-267c041d77d4?q=80&w=1470&auto=format&fit=crop"],
+    "categoryName": "Đồ dùng nhà bếp",
+    "stock": 40
+  },
+  {
+    "name": "Son môi 3CE",
+    "description": "Son môi 3CE Velvet Lip Tint, màu sắc tươi tắn, lên màu chuẩn, bền màu",
+    "price": 320000,
+    "images": ["https://images.unsplash.com/photo-1586495777744-4413f21062fa?q=80&w=1415&auto=format&fit=crop"],
+    "categoryName": "Mỹ phẩm",
+    "stock": 70
+  },
+  {
+    "name": "Thịt bò Úc nhập khẩu",
+    "description": "Thịt bò Úc nhập khẩu, thăn ngoại, 500g/gói, tươi ngon",
+    "price": 189000,
+    "images": ["https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?q=80&w=1470&auto=format&fit=crop"],
+    "categoryName": "Thực phẩm tươi sống",
+    "stock": 30
+  },
+  {
+    "name": "Nước ép trái cây tự nhiên",
+    "description": "Nước ép trái cây tự nhiên 100%, không đường, 1L/chai",
+    "price": 65000,
+    "images": ["https://images.unsplash.com/photo-1600271886742-f049cd451bba?q=80&w=1374&auto=format&fit=crop"],
+    "categoryName": "Đồ uống",
+    "stock": 40
+  }
+]
