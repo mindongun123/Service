@@ -22,3 +22,6 @@ This service provides APIs for user management, authentication, user profiles, a
 - Chạy migration: `npx sequelize-cli db:migrate`
 - Chạy seed: `npx sequelize-cli db:seed:all`
 - Khởi động: `node index.js` hoặc `npm start`
+
+
+- TEST chatbot
